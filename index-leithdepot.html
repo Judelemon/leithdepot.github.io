@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Leith Depot : Bar restaurant Venue in Leith, Edinburgh</title>
+
+        <!-- Bootstrap -->
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link href="assets/bower_components/flexslider/flexslider.css" rel="stylesheet">
+        <link href="assets/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+        <!--slider revolution-->
+        <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css"> 
+        <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+        <!--main css file-->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--pre-loader-->
+        <div id="preloader"></div>
+        <!--pre-loader-->
+        <!--===============main navigation + top bar==========================-->
+        <header class="header header-top-transparent">
+            <!--top bar-->
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 hidden-xs">
+                            <ul class="list-inline">
+                                <li><a href="javascript:void(0)"><i class="ion-ios-telephone"></i> +0131 555 4738</a></li>
+                                <li><a href="javascript:void(0)"><i class="ion-email"></i> leithdepot@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <!--<div class="col-sm-6 text-right">
+                            <ul class="list-inline level-2">
+                                <li class="b-table"><a href="#" class=" waves-float waves-button">Book a table</a></li>
+                                <li class="lang"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Lang <i class="ion-ios-arrow-down"></i></a>
+                                    <ul class="dropdown-menu lang-dropdown">
+                                        <li><a href="javascript:void(0)"><img class="flag" src="assets/images/spanish.png" alt="Spanish">Spanish</a></li>
+                                        <li><a href="javascript:void(0)"><img class="flag" src="assets/images/italy.png" alt="Italian">Italian</a></li>
+                                        <li><a href="javascript:void(0)"><img class="flag" src="assets/images/german.png" alt="German">German</a></li>
+                                        <li><a href="javascript:void(0)"><img class="flag" src="assets/images/fr.png" alt="French">French</a></li>
+                                        <li><a href="javascript:void(0)"><span><img class="flag" src="assets/images/usa-flag.png" alt="English">English</span></a></li>
+                                        <li><a href="javascript:void(0)"><img class="flag" src="assets/images/jp.png" alt="Japanise">Japanise</a></li>
+                                        <li><a href="javascript:void(0)"><img class="flag" src="assets/images/in.png" alt="Hindi">Hindi</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+            <!--end top bar-->
+            <!--cart menu side panel-->
+            <!--<aside id="cartNavmenu" class="navmenu navmenu-inverse navmenu-fixed-right offcanvas">
+                <div class="cart-inner">
+                    <h4>Your cart (3)</h4>
+                    <hr>
+                    <ul class="list-unstyled cart-list margin-b-30">
+                        <li class="clearfix">
+                            <div class="cart-thumb">
+                                <a href="#">
+                                    <img src="assets/images/img-1.jpg" alt="" class="img-responsive" width="90">
+                                </a>
+                            </div>
+                            <div class="cart-content">
+                                <span class="close"><i class="ion-close"></i></span>
+                                <h5>Bonanaza family pack</h5>
+                                <p><span class="price">$48.00</span>  x 2</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="cart-thumb">
+                                <a href="#">
+                                    <img src="assets/images/img-2.jpg" alt="" class="img-responsive" width="90">
+                                </a>
+                            </div>
+                            <div class="cart-content">
+                                <span class="close"><i class="ion-close"></i></span>
+                                <h5>Bonanaza family pack</h5>
+                                <p><span class="price">$48.00</span>  x 2</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="cart-thumb">
+                                <a href="#">
+                                    <img src="assets/images/img-3.jpg" alt="" class="img-responsive" width="90">
+                                </a>
+                            </div>
+                            <div class="cart-content">
+                                <span class="close"><i class="ion-close"></i></span>
+                                <h5>Bonanaza family pack</h5>
+                                <p><span class="price">$48.00</span>  x 2</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text-center">
+                                <a href="shop-checkout.html" class="btn btn-default">Checkout</a>
+                                <a href="shop-cart.html" class="btn btn-primary">View Cart</a>
+                            </div>
+                        </li>
+                    </ul>                       
+                </div>
+            </aside>-->
+
+            <!--main navigation-->
+            <nav class="navbar navbar-default navbar-static-top sticky-header">
+                <div class="container">
+
+                    <!--cart icon-->
+                    <!--<div class="pull-right cart-nav">
+                        <a href="javascript:void(0)" data-toggle="offcanvas" data-target="#cartNavmenu" data-canvas="body"><i class="ion-ios-cart"></i> <span class="badge">3</span></a>
+                    </div>-->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            
+                            <img src="assets/images/logo-light.png" alt="logo" class="logo-default">
+                            <img src="assets/images/logo-dark.png" alt="logo" class="logo-scroll">
+
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active">
+                                <a href="index-leithdepot.html">Home</a>
+                            </li>
+                             
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What's on<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="events.html">events</a></li>
+                                    <li><a href="menu-tiles.html">News and community</a></li>
+                                    <li><a href="menu-grid.html">Menu grid</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="menu-simple.html">Food and Deals</a></li>
+                            <li><a href="drinks.html">Drinks</a></li>
+                            <li><a href="venue.html">Venue</a></li>
+                            <li><a href="booking.html">Booking</a></li>
+
+                           <!--
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Food and deals<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="menu-simple.html">Menu</a></li>
+                                    <li><a href="blog-leftsidebar.html">Left sidebar</a></li>
+                                    <li><a href="blog-masonry.html">Masonry</a></li>
+                                    <li><a href="blog-fullwidth.html">Full width</a></li>
+                                    <li><a href="blog-post.html">Single Page</a></li>
+                                </ul>
+                            </li>
+                          
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Drinks <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="drinks.html">Drinks</a></li>
+
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                    <li><a href="login-register.html">Login Register</a></li>
+                                    <li><a href="page-full-width.html">Page Full Width</a></li>
+                                    <li><a href="error-404.html">Error 404</a></li>
+
+                                    <li><a href="page-left-sidebar.html">Page left sidebar</a></li>
+                                    <li><a href="typography.html">Typography</a></li>
+                                    <li><a href="elements.html">Eelements</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venue <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="shop-products.html">Products</a></li>
+
+                                    <li><a href="shop-cart.html">Cart</a></li>
+                                    <li><a href="shop-checkout.html">Checkout</a></li>
+                                </ul>
+                            </li> 
+                             
+                        </ul>-->
+                    </div><!--/.nav-collapse -->
+                </div><!--/.container-fluid -->
+            </nav>
+        </header>
+
+        <!--===============end main navigation + top bar =====================-->
+
+
+        <!--================Revolution slider video hero=============-->
+        <div id="rev_slider_88_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="youtube-hero" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+            <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
+            <div id="rev_slider_88_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-270" data-transition="zoomout" data-slotamount="default"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="3000"  data-thumb="../../assets/images/youtubebg-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Intro" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/images/video-poster.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                        <!-- BACKGROUND VIDEO LAYER -->
+                        <div class="rs-background-video-layer" 
+                             data-forcerewind="on" 
+                             data-volume="mute" 
+                             data-ytid="DCgDuSe5xdo"
+                            data-videoattributes="version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;ref=0;&amp;origin=https://judelemon.github.io/index-leithdepot.html;" 
+                             data-videorate="1" 
+                             data-videowidth="100%" 
+                             data-videoheight="100%" 
+                             data-videocontrols="none" 
+                             data-videostartat="00:06" 
+                             data-videoendat="01:40" 
+                             data-videoloop="loop" 
+                             data-forceCover="1" 
+                             data-aspectratio="4:3" 
+                             data-autoplay="true" 
+                             data-autoplayonlyfirsttime="false" 
+                             data-nextslideatend="true" 
+                             ></div>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
+                             id="slide-270-layer-10" 
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                             data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                             data-width="full"
+                             data-height="full"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+
+                             data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
+                             data-transform_out="s:300;s:300;" 
+                             data-start="750" 
+                             data-basealign="slide" 
+                             data-responsive_offset="on" 
+                             data-responsive="off"
+
+                             style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> 
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0" 
+                             id="slide-270-layer-8" 
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                             data-y="['middle','middle','middle','middle']" data-voffset="['-66','-64','-78','-78']" 
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-style_hover="cursor:default;"
+
+                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
+                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                             data-start="1000" 
+                             data-splitin="none" 
+                             data-splitout="none" 
+                             data-responsive_offset="on" 
+
+
+                             style="z-index: 6; white-space: nowrap;"><i class="fa fa-film"></i> 
+                        </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
+                             id="slide-270-layer-1" 
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                             data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-22','-29']" 
+                             data-fontsize="['90','90','70','50']"
+                             data-lineheight="['90','90','70','50']"
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+
+                             data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                             data-mask_in="x:0px;y:0px;" 
+                             data-mask_out="x:inherit;y:inherit;" 
+                             data-start="1000" 
+                             data-splitin="none" 
+                             data-splitout="none" 
+                             data-responsive_offset="on" 
+
+
+                             style="z-index: 7; white-space: nowrap;">Leith Depot
+                        </div>
+
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
+                             id="slide-270-layer-4" 
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                             data-y="['middle','middle','middle','middle']" data-voffset="['62','62','28','13']" 
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+
+                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
+                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                             data-start="1000" 
+                             data-splitin="none" 
+                             data-splitout="none" 
+                             data-responsive_offset="on" 
+
+
+                             style="z-index: 8; white-space: nowrap;">Bar Restaurant Venue in Leith, Edinburgh
+                        </div>
+
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption btn btn-xl btn-primary  rs-parallaxlevel-0" 
+                             id="slide-270-layer-7" 
+                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                             data-y="['middle','middle','middle','middle']" data-voffset="['124','124','80','65']" 
+                             data-width="none"
+                             data-height="none"
+                             data-whitespace="nowrap"
+                             data-transform_idle="o:1;"
+                             data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+                             data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
+
+                             data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
+                             data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                             data-start="1250" 
+                             data-splitin="none" 
+                             data-splitout="none" 
+                             data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
+                             data-responsive_offset="on" 
+                             data-responsive="off"
+
+                             style="z-index: 9; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Learn More 
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-static-layers">
+                </div>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	
+            </div>
+        </div><!-- END REVOLUTION SLIDER -->
+
+
+  <!--blog-->
+        <section id="blog">
+            <div class="space-70"></div>
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="title-1">What's <span class="text-color ">on &#63;</span></h1>  
+                    <h5 class="subtitle">Line Up qnd Latest news</h5>
+                    <div class="space-30"></div>
+                </div>
+
+                <div class="row margin-b-20">
+                    <div class="col-sm-4">
+                        <div class="post">
+                            <div class="post-thumb">
+                                <a href="#">
+                                    <img src="assets/images/bg6.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="post-meta">
+                                <h3 class=""><a href="#">Line Up December 3/4</a></h3>
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="ion-person"></i> Jude Lemon</a></li>
+                                    <li><a href="#"><i class="ion-calendar"></i> 20 Dec. 2016</a></li>
+                                    <li><a href="#"><i class="ion-pricetags"></i> Event &amp; </a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>
+                                    All the Events for the third week of December at Leith Depot  
+                                </p>
+                                <div class="text-left">
+                                    <a href="#">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="post">
+                            <div class="post-thumb">
+                                <a href="#">
+                                    <img src="assets/images/bg4.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="post-meta">
+                                <h3 class=""><a href="#">News and Community</a></h3>
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="ion-person"></i> Jude Lemon</a></li>
+                                    <li><a href="#"><i class="ion-calendar"></i> 22 Dec 2016</a></li>
+                                    <li><a href="#"><i class="ion-pricetags"></i> Community &amp; </a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>
+                                    News and Community 
+                                </p>
+                                <div class="text-left">
+                                    <a href="#">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="post">
+                            <div class="post-thumb">
+                                <a href="#">
+                                    <img src="assets/images/bg5.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="post-meta">
+                                <h3 class=""><a href="#">Newsletter</a></h3>
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="ion-person"></i> John Doe</a></li>
+                                    <li><a href="#"><i class="ion-calendar"></i> 20 Oct. 2016</a></li>
+                                    <li><a href="#"><i class="ion-pricetags"></i> Food &amp; drink</a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>
+                                    Subscribe to the newsletter to get informed weekly on the events and the news of the Leith Depot
+                                </p>
+                                <div class="text-left">
+                                    <a href="#">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end blog-->
+
+        <!-- Quote Leith Depot -->
+        
+        <div class="about-chefs" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h1 class="text-uppercase"> Leith Depot </h1>
+                        <p>
+                            We have a very cosy, welcoming and laid back bar located on Leith Walk, with lovely huge windows looking out onto lovely Leith Walk. Our fantastic Team at Leith Depot are very friendly and are happy to ensure that you have an enjoyable experience.
+                        </p>
+                         <p>
+                            At Leith Depot we like to think that there’s something for everyone. We supply great bar snacks, tea and artisan coffee. We have a wide selection of bottled craft beers & wines and numerous draughts to choose from.
+                          </p>
+                          <p>
+                            On our food menu we serve a largely pescatarian and vegetarian menu but there is always an option for the carnivores amongst you. 
+                        </p>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!--end Quote Leith Depot-->
+        
+
+        <!-- Specials of the day -->
+        
+
+
+
+        <!--Testimonials -->
+        <div class="testimonials" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <div class="text-center">
+                            <h1 class="title-1">Customer <span class="text-color ">Reviews</span></h1>  
+                            <h5 class="subtitle">What they say</h5>
+                            <div class="space-30"></div>
+                        </div>
+                        <div class="testi-slider">
+                            <ul class="slides">
+                                <li>
+                                    <p>
+                                        Clutching our voucher we tried Leith Depot for the first time and were so pleased with the wine and food. The place has a nice buzz about it and our waitress was pleasant and efficient. Our food was piping hot, good quality fish with a light batter which wasn't greasy, chips were hand cut and tasty. We will definitely return.
+                                    </p>
+
+                                    <div class="testi-info">
+                                        <img src="assets/images/avatar-marionr.jpg" alt="" width="50" class="img-circle">
+                                        <h4>Marion R <small> - Leith Depot customer</small></h4>
+
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                    </div>
+                                </li><!--slide item-->
+                                <li>
+                                    <p>
+                                        Up and coming bar with good food..
+                                        Things I have not seen for a long time such as a finger bowl given as standard.
+                                        Good atmosphere they have live music upstairs. Friendly staff and are willing to take on any requests.
+                                    </p>
+
+                                    <div class="testi-info">
+                                        <img src="assets/images/avatar-robertrm.jpg" alt="" width="50" class="img-circle">
+                                        <h4>Robert R M <small> - Leith Depot customer</small></h4>
+
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                    </div>
+                                </li><!--slide item-->
+                                <li>
+                                    <p>
+                                        Since the Leith Depot opened in November last year it has become one of my firm favourites when looking for a reasonable meal out, and we have taken many friends here as well. 
+                                        Highly recommend if looking for a drink and bite to eat when out with friends or a partner.
+                                    </p>
+
+                                    <div class="testi-info">
+                                        <img src="assets/images/avatar-jossm.jpg" alt="" width="50" class="img-circle">
+                                        <h4>Joss M <small> - Leith Depot customer</small></h4>                                           
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                    </div>
+                                </li><!--slide item-->
+                                 <li>
+                                    <p>
+                                        "A wee gem”
+                                        Good healthy food at a good price. With live music upstairs while we were eating it was a great experience. I hope to be back soon.
+                                    </p>
+
+                                    <div class="testi-info">
+                                        <img src="assets/images/avatar-pubah.jpg" alt="" width="50" class="img-circle">
+                                        <h4>Pubah <small> - Leith Depot customer</small></h4>                                           
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-star"></i>
+                                        <i class="ion-ios-star-half"></i>
+                                    </div>
+                                </li><!--slide item-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--testimonials end-->
+        
+        <div class="cta-background-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 text-center">
+                        <h1 class="text-uppercase">Book a table now</h1>
+                        <p>
+                            We serve a largely pescatarian and vegetarian menu at Leith Depot but there’s always an option for the carnivores amongst you. </br>Our food is of restaurant quality but at bar prices.</br> We use local food suppliers and fishmongers and so our menu can change seasonally. 
+                            We pride oursevles on providing nutritious, healthy, wholesome and tasty options and you can choose from our light bites, starters or mains.
+                        </p>
+                        <a href="#" class="btn btn-white btn-rounded">Make a reservation</a>
+
+                        <script data-resmio-button="leith-depot">
+                          (function(d, s) {
+                            var js, rjs = d.getElementsByTagName(s)[0];
+                            js = d.createElement(s);
+                            js.src = "//static.resmio.com/static/fr/button.js";
+                            js.async = true;
+                           rjs.parentNode.insertBefore(js, rjs); }(document, "script")
+                          );
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cta-skin contact-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 margin-b-30">
+                        <i class="ion-email"></i>
+                        <div class="overflow-hidden">
+                            <h4>Email</h4>
+                            <p class="lead">
+                                leithdepot@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                     <div class="col-sm-4 margin-b-30">
+                        <i class="ion-email"></i>
+                        <div class="overflow-hidden">
+                            <h4>Reservation</h4>
+                            <p class="lead">
+                                0131 555 4738
+                            </p>
+                        </div>
+                    </div>
+                     <div class="col-sm-4 margin-b-30">
+                        <i class="ion-map"></i>
+                        <div class="overflow-hidden">
+                            <h4>Location</h4>
+                            <p class="lead">
+                                128-140, Leith Walk, Edinburgh
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 margin-b-30">
+                        <img class="margin-b-20" src="assets/images/logo-light.png" alt="">
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                        <h5><a href="#">Read More...</a></h5>
+                    </div>
+                    <div class="col-md-3 margin-b-30">
+                        <h3>Recent Posts</h3>
+                        <ul class="list-unstyled recent-post">
+                            <li class="clearfix">
+                                <a href="#">
+                                    <img src="assets/images/a1.jpg" alt="" width="70">
+                                </a>
+                                <div class="post-content">
+                                    <h5><a href="#">Pizza cordoin lorem ipsum dolor sit amet</a></h5>
+                                    <span>14 April 2016</span>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <a href="#">
+                                    <img src="assets/images/a2.jpg" alt="" width="70">
+                                </a>
+                                <div class="post-content">
+                                    <h5><a href="#">Cordoin lorem ipsum dolor sit amet</a></h5>
+                                    <span>14 April 2016</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 margin-b-30">
+                        <h3>Opening hours</h3>
+                        <p><span class="text-color">Mon-Tue-Wed: </span>12:00 PM - 12:00 AM </p>
+                        <p><span class="text-color">Thur-sat</span> 12:00 PM - 01:00 AM</p>
+                        <p><span class="text-color">Sunday :</span> 12:00 PM - 12:00 AM</p>
+                    </div>
+                    <div class="col-md-3 margin-b-30">
+                        <h3>Contact Us</h3>
+                        <p class="lead">
+                           138-140 Leith Walk, Edinburgh
+                        </p>
+                        <p class="lead"><a href="#">+0131 555 4738</a></p>
+                        <p><a href="#">leithdepot@gmail.com</a></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <ul class="list-inline f-social">
+                            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                            <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                        </ul>
+                        <span>&copy; Copyright 2016. Jude Lemon</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!--back to top-->
+        <a href="#" class="scrollToTop"><i class="ion-android-arrow-up"></i></a>
+        <!--back to top end-->
+
+
+
+        <!-- jQuery plugins-->
+        <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/bower_components/flexslider/jquery.flexslider-min.js"></script>
+        <script src="assets/js/jquery.stellar.min.js"></script>
+        <script src="assets/js/jquery.sticky.js"></script>   
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+        <script src="assets/js/template-custom.js" type="text/javascript"></script> 
+
+        <!--revolution slider-->
+        <script type="text/javascript" src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                if (jQuery("#rev_slider_88_1").revolution == undefined) {
+                    revslider_showDoubleJqueryError("#rev_slider_88_1");
+                } else {
+                    revapi88 = jQuery("#rev_slider_88_1").show().revolution({
+                        sliderType: "standard",
+                        jsFileLocation: "../../revolution/js/",
+                        sliderLayout: "fullscreen",
+                        dottedOverlay: "none",
+                        delay: 9000,
+                        navigation: {
+                            onHoverStop: "off"
+                        },
+                        responsiveLevels: [1240, 1024, 778, 480],
+                        gridwidth: [1240, 1024, 778, 480],
+                        gridheight: [600, 500, 400, 270],
+                        lazyType: "none",
+                        parallax: {
+                            type: "scroll",
+                            origo: "slidercenter",
+                            speed: 2000,
+                            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50]
+                        },
+                        shadow: 0,
+                        spinner: "off",
+                        stopLoop: "on",
+                        stopAfterLoops: 0,
+                        stopAtSlide: 1,
+                        shuffle: "off",
+                        autoHeight: "off",
+                        disableProgressBar: "on",
+                        hideThumbsOnMobile: "off",
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        debugMode: false,
+                        fallbacks: {
+                            simplifyAll: "off",
+                            nextSlideOnWindowFocus: "off",
+                            disableFocusListener: false
+                        }
+                    });
+                }
+            });
+        </script>
+
+    </body>
+</html>
